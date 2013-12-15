@@ -25,3 +25,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.wifi_required=true \
     keyguard.no_require_sim=true \
     ro.build.selinux=1
+
+# Performance properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.use_dithering=1 \
+    persist.sys.purgeable_assets=1 \
+    dalvik.vm.verify-bytecode=false \
+    ro.kernel.android.checkjni=0 \
+    ro.kernel.checkjni=0 \
+    persist.sys.ui.hw=1 \
+    debug.performance.tuning=1 \
+    video.accelerate.hw=1 \
+    windowsmgr.max_events_per_sec=240
