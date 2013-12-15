@@ -6,3 +6,9 @@ PRODUCT_COPY_FILES += \
 # Bootanimation
 PRODUCT_COPY_FILES += \
     vendor/thunderkat/prebuilt/bootanimation.zip:system/media/bootanimation.zip
+
+# Goo.im properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.goo.developerid=craigacgomez \
+    ro.goo.rom=ThunderKat \
+    ro.goo.version=$(shell date +%Y%m%d)
