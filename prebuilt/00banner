@@ -1,0 +1,16 @@
+#!/system/bin/sh
+#
+# Print startup info
+#
+L="log -p i -t cm"
+
+
+$L "#######                                           #    #              ";
+$L "   #    #    # #    # #    # #####  ###### #####  #   #    ##   ##### ";
+$L "   #    #    # #    # ##   # #    # #      #    # #  #    #  #    #   ";
+$L "   #    ###### #    # # #  # #    # #####  #    # ###    #    #   #   ";
+$L "   #    #    # #    # #  # # #    # #      #####  #  #   ######   #   ";
+$L "   #    #    # #    # #   ## #    # #      #   #  #   #  #    #   #   ";
+$L "   #    #    #  ####  #    # #####  ###### #    # #    # #    #   #   ";
+
+$L "Welcome to `getprop ro.build.display.id` - Android `getprop ro.build.version.release`";
