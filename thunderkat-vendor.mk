@@ -13,6 +13,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.rom=ThunderKat \
     ro.goo.version=$(shell date +%Y%m%d)
 
+# Enable root access by default
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.root_access=3
+
 # Setup properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false \
