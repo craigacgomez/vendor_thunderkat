@@ -1,0 +1,54 @@
+ThunderKat - Android 4.4.x - craigacgomez
+==========
+
+Visit http://github.com/craigacgomez for full changelogs and git access.
+
+CHANGELOG (notable new features)
+
+2013/11/01;
+1. Re-synced repositories (2013/11/01 - 03:00AM PST)
+2. Added QuietHours (configure via Settings > Sounds)
+3. Categorised Settings > Display screen
+4. Added option to enabled battery percent meter in Settings > Display
+5. Added potential external storage access permissions
+6. Fixed Settings application locale issues
+7. Enabled root access by default
+8. Disabled ability to change to ART rutime via Developer Settings temporarily
+9. Added system-wide expanded desktop using the new immersive mode feature (credit SlimRoms & CyanogenMod)
+10. Changed Settings > Apps to go to Application Settings instead of directly going to Manage Applications
+11. Enabled App Ops (configure via Settings > Apps)
+12. Enabled keyboard Quick Launch configurations (configure via Settings > Apps)
+13. Disabled lock/unlock sounds during music playback
+14. Added miscellaneous bug fixes including updated Superuser & CyanogenMod applications
+
+2013/11/21:
+1. Based on AOSP Android 4.4_r1.2 (KRT16S) source
+2. Built using Google GCC 4.8 toolchain
+3. Added LockClock (cLock), CMFileManager & Calculator from CyanogenMod
+4. Replaced AOSP bionic with bionic from CyanogenMod
+5. Added busybox, fuse, ntfs-3g, e2fsprogs & vold from CyanogenMod
+6. Added embedded Superuser from Koush
+7. Added USB OTG read/write support with dismissable notifications for non-primary volumes
+8. Added fixes for GCC 4.8+ toolchains
+9. Added various build build optimisation including Cortex-A15 optimisations & O3
+10. Enabled secure boot and secure adb
+11. Enabled Google Location Services
+12. Added miscellaneous build tweaks, additions & removals
+13. Added Navigation bar positioning (default/centre, left or right) via Settings -> Display
+14. Added Recent Apps clear all functionality with long-press action to drop VM caches
+15. Inverted press/long-press actions of Wifi, Bluetooth & Location tiles
+16. Modified Location tile to switch between the different location modes (Off/Sensors Only/Battery Saving/High Accuracy) on press
+17. Updated several Android drawables to match the new KitKat style guidelines (credit SlimRoms)
+18. Updated bluetooth AVRCP to use ARTIST metadata, and use ALBUMARTIST metadata only if ARTIST is not present
+19. Updated the Bluetooth application to remove file format transfer restriction, and to use the Download directory to save received files
+20. Enabled SELinux status information under Settings -> About
+21. Enabled translucent window decoration (status bar & navigation bar)
+22. Updated device overlays
+23. Disabled headset safe volume restriction
+24. Added init.d support
+25. Added advanced power menu (when screen is unlocked)
+26. Included new Launcher3
+27. Included the latest proprietary files, binaries and drivers provided by Google
+28. Added the official Nexus 10 KitKat bootanimation
+29. Included 48KHz ringtones, notifications, ui sounds and alarms
+30. Added ThunderKat kernel dated 2013/11/21 (Visit http://forum.xda-developers.com/showthread.php?t=2318891 for kernel changelog)

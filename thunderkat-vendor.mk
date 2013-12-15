@@ -7,6 +7,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/thunderkat/prebuilt/bootanimation.zip:system/media/bootanimation.zip
 
+# Changelog
+PRODUCT_COPY_FILES += \
+    vendor/thunderkat/CHANGELOG-THUNDERKAT.txt:system/etc/CHANGELOG-THUNDERKAT.txt
+
 # Goo.im properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=craigacgomez \
