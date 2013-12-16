@@ -10,6 +10,7 @@ CHANGELOG (notable new features)
 2. Miscellaneous code cleanup
 3. Various fixes for the Exchange security policy bypass
 4. Updated ThunderKat kernel which includes 4.4.1/4.4.2 AOSP kernel updates
+5. Add support for exec command with support for properties expansion in init scripts
 
 2013/12/01:
 1. Re-synced repositories (2013/11/01 - 03:00AM PST)
