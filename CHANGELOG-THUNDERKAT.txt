@@ -5,7 +5,13 @@ Visit http://github.com/craigacgomez for full changelogs and git access.
 
 CHANGELOG (notable new features)
 
-2013/11/01;
+2013/12/15:
+1. Re-based to AOSP Android 4.4.2_r1 (KOT49H)
+2. Miscellaneous code cleanup
+3. Various fixes for the Exchange security policy bypass
+4. Updated ThunderKat kernel which includes 4.4.1/4.4.2 AOSP kernel updates
+
+2013/12/01:
 1. Re-synced repositories (2013/11/01 - 03:00AM PST)
 2. Added QuietHours (configure via Settings > Sounds)
 3. Categorised Settings > Display screen
