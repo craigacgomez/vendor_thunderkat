@@ -5,6 +5,20 @@ Visit http://github.com/craigacgomez for full changelogs and git access.
 
 CHANGELOG (notable new features)
 
+2013/12/26:
+1. Re-synced repositories (2013/12/26 - 06:40PM PST)
+2. Added Expanded Desktop Quick Settings tile. Press to toggle. Long-press for Display Settings
+3. Added Sync Quick Settings tile. Press to toggle. Long-press for Sync Settings
+4. Added Ringer Mode Quick Settings tile. Press to toggle between Normal, Vibrate & Silent ringer modes. Long-press for Sound Settings
+5. Added back button long-press foreground app kill (configure via Settings > Developer options)
+6. Added ability to set a user-defined hostname (configure via Settings > Developer options)
+7. Added screen-off volume rocker wake (configure via Settings > Display)
+8. Added screen-off volume rocker long-press music controls (configure via Settings > Sound)
+9. Added safe headset volume toggle (configure via Settings > Sound)
+10. Added lockscreen quick unlock for pin and password security options (configure via Settings > Security)
+11. Updated Settings application Android drawables to match the new KitKat style guidelines (credit SlimRoms)
+12. Miscellaneous bug-fixes and enhancements
+
 2013/12/15:
 1. Re-based to AOSP Android 4.4.2_r1 (KOT49H)
 2. Miscellaneous code cleanup
@@ -20,7 +34,7 @@ CHANGELOG (notable new features)
 5. Added potential external storage access permissions
 6. Fixed Settings application locale issues
 7. Enabled root access by default
-8. Disabled ability to change to ART rutime via Developer Settings temporarily
+8. Disabled ability to change to ART runtime via Developer Settings temporarily
 9. Added system-wide expanded desktop using the new immersive mode feature (credit SlimRoms & CyanogenMod)
 10. Changed Settings > Apps to go to Application Settings instead of directly going to Manage Applications
 11. Enabled App Ops (configure via Settings > Apps)
