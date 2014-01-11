@@ -5,6 +5,24 @@ Visit http://github.com/craigacgomez for full changelogs and git access.
 
 CHANGELOG (notable new features)
 
+2014/01/10:
+1. Re-synced repositories (2014/01/10 - 04:30PM PST)
+2. Fixed ART runtime on GCC-4.8 builds (credit SlimRoms)
+3. Fixed Google Play backup-restore on Android 4.4+
+4. Updated Quick Settings location tile drawables to reflect the current location mode (credit SlimRoms for drawables)
+5. Enabled DessertCake dream
+6. Fixed wallpaper reset when restarting SystemUI
+7. Improved AppOps layout (credit CyanogenMod)
+8. Removed option to move navigation bar buttons for phones
+9. Added back option to switch to ART runtime in Settings > Developer options
+10. Added detailed warning message when switching to ART runtime
+11. Allow user to trigger volume media rescan (only for internal emulated volumes, primary volumes & non-removable volumes) from Settings > Storage
+12. Updated to libflac from AOSP master to fix pop & crackle when playing FLAC audio files
+13. Use fixed bootanimation from @dankoman which does the full 360-degree rotation properly
+
+2013/12/27:
+1. Bugfix: Properly update the state of the Expanded Desktop, Sync & Ringer Mode Quick Settings tiles when changes are triggered elsewhere
+
 2013/12/26:
 1. Re-synced repositories (2013/12/26 - 06:40PM PST)
 2. Added Expanded Desktop Quick Settings tile. Press to toggle. Long-press for Display Settings
