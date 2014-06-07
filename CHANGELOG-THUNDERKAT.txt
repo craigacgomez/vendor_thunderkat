@@ -5,6 +5,22 @@ Visit http://github.com/craigacgomez for full changelogs and git access.
 
 CHANGELOG (notable new features)
 
+2014/07/07:
+1. Merged Android 4.4.3_r1.1 (KTU84M)
+2. Updated CyanogenMod applications
+3. Added OmniRom Launcher3 with configurable rows/columns, icon-pack support and custom hotwords recognition
+4. Added stagefright FFMPEG decoder (credit Michael Chen, Android X86 project, CyanogenMod & SlimRoms)
+5. Added OmniTorch
+6. SEPolicy updates for ext4, vold, exFAT & ASEC
+7. OpenSSL with latest CVE security patches
+    a. CVE-2014-0160 - Heartbeat extension bounds check
+    b. CVE-2014-0224 - SSL/TLS MITM (CCS) vulnerability fix
+    c. CVE-2014-0221 - DTLS hello request without recursion
+    d. CVE-2014-0195 - Consistency check for DTLS fragments
+8. Updated ThunderKat kernel 2014/07/05 which includes 4.4.3 AOSP kernel updates and F2FS support
+9. Added "Powered by Android" Google Nexus bootanimation (credit Kiernan Moore & sgosiaco)
+10. Updated to the latest IANA time zone (zoneinfo) database file version 2014d (release 2014/05/27)
+
 2014/01/10:
 1. Re-synced repositories (2014/01/10 - 04:30PM PST)
 2. Fixed ART runtime on GCC-4.8 builds (credit SlimRoms)
